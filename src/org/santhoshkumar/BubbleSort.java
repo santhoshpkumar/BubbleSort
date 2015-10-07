@@ -20,6 +20,7 @@ public class BubbleSort {
 
     public void sort(){
         //Compare each item until the last but one element.
+        // use either ( < array.length-1 ) or ( <= array.length-2 )
         // If only last element it is already in sorted order.
         for(int i =0; i < values.length-1; i ++){
             // Compare from end each adjacent element until the sorted element
