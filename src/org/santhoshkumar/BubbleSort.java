@@ -5,7 +5,8 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         BubbleSort bs = new BubbleSort();
-        int[] a = {34,6,1,78,3,6,2,9,0};
+        //int[] a = {34,6,1,78,3,6,2,9,0};
+        int[] a = {9,8,7,6,5,4,3,2,1,0};
         bs.values = a;
         bs.sort();
         bs.print();
